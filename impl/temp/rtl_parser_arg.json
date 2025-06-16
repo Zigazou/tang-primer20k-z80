@@ -1,0 +1,69 @@
+{
+ "Device" : "GW2A-18C",
+ "Files" : [
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/gowin_rpll120/gowin_rpll120.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/in_out_split.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/ram1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/ram2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_device_controller/usb_device_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_to_uart/usb_to_uart.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_alu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_core.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_mcode.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_reg.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80s.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/zz80.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+  "/home/fred/Programmation/FPGA/zz80/src/cpu"
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/impl/temp/rtl_parser.result",
+ "Top" : "zz80",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="zz80" Register="42" Alu="22" Lut="51" T_Register="984(42)" T_Alu="259(22)" T_Lut="2738(51)" T_Bsram="7(0)" T_Ssram="24(0)">
+ <SubModule name="clk_6mhz"/>
+ <SubModule name="clk_120mhz"/>
+ <SubModule name="z80_ram" Bsram="1" T_Bsram="1(1)"/>
+ <SubModule name="z80" Register="12" Lut="39" T_Register="230(12)" T_Alu="54(0)" T_Lut="1377(39)" T_Ssram="12(0)">
+  <SubModule name="i_tv80_core" Register="218" Alu="47" Lut="1072" T_Register="218(218)" T_Alu="54(47)" T_Lut="1338(1072)" T_Ssram="12(0)">
+   <SubModule name="i_mcode" Lut="258" T_Lut="258(258)"/>
+   <SubModule name="i_alu" Alu="7" Lut="8" T_Alu="7(7)" T_Lut="8(8)"/>
+   <SubModule name="i_reg" Ssram="12" T_Ssram="12(12)"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="usb" Register="11" Alu="4" Lut="16" T_Register="712(11)" T_Alu="183(4)" T_Lut="1310(16)" T_Bsram="6(0)" T_Ssram="12(0)">
+  <SubModule name="usb" T_Register="614(0)" T_Alu="130(0)" T_Lut="1111(0)" T_Bsram="4(0)">
+   <SubModule name="usb_serial_device" T_Register="614(0)" T_Alu="130(0)" T_Lut="1111(0)" T_Bsram="4(0)">
+    <SubModule name="usb" Register="14" Lut="24" T_Register="614(14)" T_Alu="130(0)" T_Lut="1111(24)" T_Bsram="4(0)">
+     <SubModule name="USBControlEndpoint" Register="3" Lut="22" T_Register="259(3)" T_Alu="58(0)" T_Lut="298(22)" T_Bsram="1(0)">
+      <SubModule name="StandardRequestHandler" Register="10" Lut="35" T_Register="65(10)" T_Alu="42(0)" T_Lut="203(35)" T_Bsram="1(0)">
+       <SubModule name="get_descriptor" Register="52" Alu="42" Lut="160" Bsram="1" T_Register="52(52)" T_Alu="42(42)" T_Lut="160(160)" T_Bsram="1(1)"/>
+       <SubModule name="transmitter" Register="3" Lut="8" T_Register="3(3)" T_Lut="8(8)"/>
+      </SubModule>
+      <SubModule name="request_mux" Lut="9" T_Lut="17(9)">
+       <SubModule name="tx_mux" Lut="8" T_Lut="8(8)"/>
+      </SubModule>
+      <SubModule name="setup_decoder" Register="46" Lut="12" T_Register="191(46)" T_Alu="16(0)" T_Lut="56(12)">
+       <SubModule name="data_handler" Register="145" Alu="16" Lut="44" T_Register="145(145)" T_Alu="16(16)" T_Lut="44(44)"/>
+      </SubModule>
+     </SubModule>
+     <SubModule name="USBStreamInEndpoint" T_Register="3(0)" T_Lut="17(0)">
+      <SubModule name="tx_manager" Register="3" Lut="17" T_Register="3(3)" T_Lut="17(17)"/>
+     </SubModule>
+     <SubModule name="USBStreamInEndpoint_2831507112816" T_Register="37(0)" T_Lut="125(0)" T_Bsram="2(0)">
+      <SubModule name="tx_manager" Register="37" Lut="125" Bsram="2" T_Register="37(37)" T_Lut="125(125)" T_Bsram="2(2)"/>
+     </SubModule>
+     <SubModule name="USBStreamOutEndpoint" Register="2" Lut="14" T_Register="66(2)" T_Alu="49(0)" T_Lut="82(14)" T_Bsram="1(0)">
+      <SubModule name="boundary_detector" Register="24" Lut="19" T_Register="24(24)" T_Lut="19(19)"/>
+      <SubModule name="fifo" Register="40" Alu="49" Lut="49" Bsram="1" T_Register="40(40)" T_Alu="49(49)" T_Lut="49(49)" T_Bsram="1(1)"/>
+     </SubModule>
+     <SubModule name="data_crc" Register="16" Lut="59" T_Register="16(16)" T_Lut="59(59)"/>
+     <SubModule name="endpoint_mux" Register="3" Lut="4" T_Register="3(3)" T_Lut="4(4)"/>
+     <SubModule name="handshake_detector" Register="7" Lut="11" T_Register="7(7)" T_Lut="11(11)"/>
+     <SubModule name="handshake_generator" Register="6" Lut="21" T_Register="6(6)" T_Lut="21(21)"/>
+     <SubModule name="receiver" Register="54" Alu="16" Lut="25" T_Register="54(54)" T_Alu="16(16)" T_Lut="25(25)"/>
+     <SubModule name="reset_sequencer" Register="46" Lut="163" T_Register="46(46)" T_Lut="163(163)"/>
+     <SubModule name="timer" Register="10" Lut="20" T_Register="10(10)" T_Lut="20(20)"/>
+     <SubModule name="token_detector" Register="27" Alu="7" Lut="36" T_Register="37(27)" T_Alu="7(7)" T_Lut="55(36)">
+      <SubModule name="timer" Register="10" Lut="19" T_Register="10(10)" T_Lut="19(19)"/>
+     </SubModule>
+     <SubModule name="translator" Register="11" Lut="100" T_Register="41(11)" T_Lut="154(100)">
+      <SubModule name="control_translator" Register="10" Lut="6" T_Register="10(10)" T_Lut="6(6)"/>
+      <SubModule name="register_window" Register="12" Lut="41" T_Register="12(12)" T_Lut="41(41)"/>
+      <SubModule name="rxevent_decoder" Register="6" Lut="4" T_Register="6(6)" T_Lut="4(4)"/>
+      <SubModule name="transmit_translator" Register="2" Lut="3" T_Register="2(2)" T_Lut="3(3)"/>
+     </SubModule>
+     <SubModule name="transmitter" Register="15" Lut="53" T_Register="15(15)" T_Lut="53(53)"/>
+    </SubModule>
+   </SubModule>
+  </SubModule>
+  <SubModule name="tx_fifo" Register="44" Alu="29" Lut="99" Bsram="1" Ssram="6" T_Register="44(44)" T_Alu="29(29)" T_Lut="99(99)" T_Bsram="1(1)" T_Ssram="6(6)"/>
+  <SubModule name="rx_fifo" Register="43" Alu="20" Lut="84" Bsram="1" Ssram="6" T_Register="43(43)" T_Alu="20(20)" T_Lut="84(84)" T_Bsram="1(1)" T_Ssram="6(6)"/>
+ </SubModule>
+</Module>

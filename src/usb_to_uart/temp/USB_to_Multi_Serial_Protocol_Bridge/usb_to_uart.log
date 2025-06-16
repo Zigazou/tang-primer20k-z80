@@ -1,0 +1,62 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v'
+Analyzing included file 'top_define.vh'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v":1)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v":1)
+Analyzing included file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/static_macro_define.vh'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v":2)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v":2)
+Analyzing included file 'usb_to_multi_serial_defines.vh'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v":3)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v":3)
+Analyzing Verilog file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/qdiv.v'
+Analyzing included file 'define.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/qdiv.v":63)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/qdiv.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/qdiv.v":63)
+Analyzing included file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/static_macro_define.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/qdiv.v":63)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/qdiv.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/qdiv.v":63)
+Analyzing included file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/parameter.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/qdiv.v":63)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/qdiv.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/qdiv.v":63)
+Analyzing Verilog file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo.v'
+Analyzing included file 'fifo_define.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo.v":553)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo.v":553)
+Analyzing included file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo_parameter.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo.v":553)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo.v":553)
+Analyzing Verilog file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo_sc.v'
+Analyzing included file 'fifo_sc_define.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo_sc.v":236)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo_sc.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo_sc.v":236)
+Analyzing included file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo_sc_parameter.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo_sc.v":236)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo_sc.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo_sc.v":236)
+Analyzing Verilog file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/usb_to_multi_serial_wrapper.v'
+Undeclared symbol 'tx_usb_data_empty', assumed default net type 'wire'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/usb_to_multi_serial_wrapper.v":6842)
+Undeclared symbol 'usb_ctrl_empty', assumed default net type 'wire'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/usb_to_multi_serial_wrapper.v":6842)
+Undeclared symbol 'i2c_data', assumed default net type 'wire'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/usb_to_multi_serial_wrapper.v":6842)
+WARN  (EX3242) : Macro name '0' cannot start with a number("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/usb_to_multi_serial_wrapper.v":6842)
+Compiling module 'usb_to_uart'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v":6)
+Compiling module '**'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/usb_to_multi_serial_wrapper.v":6842)
+Compiling module '**'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/qdiv.v":63)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/qdiv.v":63)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length *** for port '**'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/usb_to_multi_serial_wrapper.v":6842)
+NOTE  (EX0101) : Current top module is "usb_to_uart"
+WARN  (EX0211) : The output port "status_o" of module "~usb_to_multi_serial_wrapper.usb_to_uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/usb_to_multi_serial_wrapper.v":6842)
+WARN  (EX0211) : The output port "UART_RTS" of module "usb_to_uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v":14)
+WARN  (NL0001) : Sweep user defined dangling instance "usb_to_multi_serial_wrapper_u0/u_UART1/uart_rx_inst/FRAME_ERROR_s2"("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/usb_to_multi_serial_wrapper.v":6842)
+WARN  (NL0001) : Sweep user defined dangling instance "usb_to_multi_serial_wrapper_u0/u_UART1/uart_rx_inst/n1273_s3"("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/usb_to_multi_serial_wrapper.v":6842)
+[5%] Running netlist conversion ...
+WARN  (CV0018) : Input BAUD_RATE[31] is unused("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v":17)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_to_uart/temp/USB_to_Multi_Serial_Protocol_Bridge/usb_to_uart.vg" completed
+Generate template file "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_to_uart/temp/USB_to_Multi_Serial_Protocol_Bridge/usb_to_uart_tmp.v" completed
+[100%] Generate report file "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_to_uart/temp/USB_to_Multi_Serial_Protocol_Bridge/usb_to_uart_syn.rpt.html" completed
+GowinSynthesis finish

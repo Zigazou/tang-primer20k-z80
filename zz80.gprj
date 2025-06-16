@@ -1,0 +1,26 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
+    <FileList>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll120/gowin_rpll120.v" type="file.verilog" enable="1"/>
+        <File path="src/in_out_split.v" type="file.verilog" enable="1"/>
+        <File path="src/ram1.v" type="file.verilog" enable="1"/>
+        <File path="src/ram2.v" type="file.verilog" enable="1"/>
+        <File path="src/usb_device_controller/usb_device_controller.v" type="file.verilog" enable="1"/>
+        <File path="src/usb_to_uart/usb_to_uart.v" type="file.verilog" enable="1"/>
+        <File path="src/usb_wrapper.v" type="file.verilog" enable="1"/>
+        <File path="src/z80-open-silicon/src/tv80/tv80_alu.v" type="file.verilog" enable="1"/>
+        <File path="src/z80-open-silicon/src/tv80/tv80_core.v" type="file.verilog" enable="1"/>
+        <File path="src/z80-open-silicon/src/tv80/tv80_mcode.v" type="file.verilog" enable="1"/>
+        <File path="src/z80-open-silicon/src/tv80/tv80_reg.v" type="file.verilog" enable="1"/>
+        <File path="src/z80-open-silicon/src/tv80/tv80s.v" type="file.verilog" enable="1"/>
+        <File path="src/zz80.v" type="file.verilog" enable="1"/>
+        <File path="src/zz80.cst" type="file.cst" enable="1"/>
+        <File path="src/zz80.sdc" type="file.sdc" enable="1"/>
+        <File path="src/ram_init.mi" type="file.other" enable="1"/>
+    </FileList>
+</Project>

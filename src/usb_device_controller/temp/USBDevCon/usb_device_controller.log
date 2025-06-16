@@ -1,0 +1,37 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller_top.v'
+Analyzing included file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/static_macro_define.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller_top.v":11)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller_top.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller_top.v":11)
+Analyzing included file 'usb_device_controller_define.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller_top.v":12)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller_top.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller_top.v":12)
+Analyzing Verilog file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller.v'
+Analyzing included file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/static_macro_define.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller.v":3408)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller.v":3408)
+Analyzing included file 'usb_device_controller_define.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller.v":3408)
+Back to file '/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller.v'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller.v":3408)
+Undeclared symbol 'utmi_reset_o', assumed default net type 'wire'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller.v":3408)
+Compiling module 'usb_device_controller'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller_top.v":16)
+Compiling module '**'("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller.v":3408)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USB_DEVICE_CONTROLLER/data/usb_device_controller.v":3408)
+NOTE  (EX0101) : Current top module is "usb_device_controller"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_device_controller/temp/USBDevCon/usb_device_controller.vg" completed
+Generate template file "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_device_controller/temp/USBDevCon/usb_device_controller_tmp.v" completed
+[100%] Generate report file "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_device_controller/temp/USBDevCon/usb_device_controller_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-18C" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
+    <FileList>
+        <File path="/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/USB_to_Multi_Serial_Top.v" type="verilog"/>
+        <File path="/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/qdiv.v" type="verilog"/>
+        <File path="/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo.v" type="verilog"/>
+        <File path="/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/fifo_sc.v" type="verilog"/>
+        <File path="/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data/usb_to_multi_serial_wrapper.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="include_path" value="/home/fred/bin/Gowin_V1.9.11.02_linux/IDE/ipcore/USBTOMULTISERIAL/data"/>
+        <Option type="include_path" value="/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_to_uart/temp/USB_to_Multi_Serial_Protocol_Bridge"/>
+        <Option type="output_file" value="usb_to_uart.vg"/>
+        <Option type="output_template" value="usb_to_uart_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="vccx" value="3.3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

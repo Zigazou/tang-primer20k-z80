@@ -1,0 +1,15 @@
+[General]
+file=usb_to_uart
+ipc_version=4
+module=usb_to_uart
+target_device=gw2a18c-011
+type=usb_to_multi_serial
+version=1.0
+
+[Config]
+I2C=false
+JTAG=false
+LANG=0
+SPI=false
+Synthesis_tool=GowinSynthesis
+UART=true

@@ -1,0 +1,530 @@
+[
+ {
+  "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/in_out_split.v",
+  "InstLine" : 1,
+  "InstName" : "in_out_split",
+  "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/in_out_split.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "in_out_split"
+ },
+ {
+  "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/ram1.v",
+  "InstLine" : 10,
+  "InstName" : "ram1",
+  "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/ram1.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "ram1"
+ },
+ {
+  "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_device_controller/usb_device_controller.v",
+  "InstLine" : 6961,
+  "InstName" : "usb_device_controller",
+  "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_device_controller/usb_device_controller.v",
+  "ModuleLine" : 6961,
+  "ModuleName" : "usb_device_controller",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_device_controller/usb_device_controller.v",
+    "InstLine" : 7078,
+    "InstName" : "u_usb_device_controller",
+    "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_device_controller/usb_device_controller.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "~usb_device_controller.usb_device_controller"
+   }
+  ]
+ },
+ {
+  "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_to_uart/usb_to_uart.v",
+  "InstLine" : 3018,
+  "InstName" : "usb_to_uart",
+  "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_to_uart/usb_to_uart.v",
+  "ModuleLine" : 3018,
+  "ModuleName" : "usb_to_uart",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_to_uart/usb_to_uart.v",
+    "InstLine" : 3055,
+    "InstName" : "usb_to_multi_serial_wrapper_u0",
+    "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_to_uart/usb_to_uart.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "~usb_to_multi_serial_wrapper.usb_to_uart"
+   }
+  ]
+ },
+ {
+  "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/zz80.v",
+  "InstLine" : 1,
+  "InstName" : "zz80",
+  "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/zz80.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "zz80",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/zz80.v",
+    "InstLine" : 31,
+    "InstName" : "clk_6mhz",
+    "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/zz80.v",
+    "InstLine" : 37,
+    "InstName" : "clk_120mhz",
+    "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/gowin_rpll120/gowin_rpll120.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL120"
+   },
+   {
+    "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/zz80.v",
+    "InstLine" : 65,
+    "InstName" : "z80_ram",
+    "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/ram2.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "ram2"
+   },
+   {
+    "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/zz80.v",
+    "InstLine" : 135,
+    "InstName" : "z80",
+    "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80s.v",
+    "ModuleLine" : 27,
+    "ModuleName" : "tv80s",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80s.v",
+      "InstLine" : 72,
+      "InstName" : "i_tv80_core",
+      "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_core.v",
+      "ModuleLine" : 27,
+      "ModuleName" : "tv80_core",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_core.v",
+        "InstLine" : 221,
+        "InstName" : "i_mcode",
+        "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_mcode.v",
+        "ModuleLine" : 25,
+        "ModuleName" : "tv80_mcode"
+       },
+       {
+        "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_core.v",
+        "InstLine" : 277,
+        "InstName" : "i_alu",
+        "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_alu.v",
+        "ModuleLine" : 25,
+        "ModuleName" : "tv80_alu"
+       },
+       {
+        "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_core.v",
+        "InstLine" : 1018,
+        "InstName" : "i_reg",
+        "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_reg.v",
+        "ModuleLine" : 25,
+        "ModuleName" : "tv80_reg"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/zz80.v",
+    "InstLine" : 225,
+    "InstName" : "usb",
+    "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "usb_wrapper",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+      "InstLine" : 48,
+      "InstName" : "usb",
+      "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+      "ModuleLine" : 17784,
+      "ModuleName" : "usb_serial",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+        "InstLine" : 17836,
+        "InstName" : "usb_serial_device",
+        "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+        "ModuleLine" : 17871,
+        "ModuleName" : "usb_serial_device",
+        "SubInsts" : [
+         {
+          "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+          "InstLine" : 17926,
+          "InstName" : "usb",
+          "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+          "ModuleLine" : 16904,
+          "ModuleName" : "usb",
+          "SubInsts" : [
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17215,
+            "InstName" : "USBControlEndpoint",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 1589,
+            "ModuleName" : "USBControlEndpoint",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 1869,
+              "InstName" : "ACMRequestHandlers",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 790,
+              "ModuleName" : "ACMRequestHandlers"
+             },
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 1880,
+              "InstName" : "StallOnlyRequestHandler",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 879,
+              "ModuleName" : "StallOnlyRequestHandler"
+             },
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 1886,
+              "InstName" : "StandardRequestHandler",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 909,
+              "ModuleName" : "StandardRequestHandler",
+              "SubInsts" : [
+               {
+                "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+                "InstLine" : 1049,
+                "InstName" : "get_descriptor",
+                "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+                "ModuleLine" : 6653,
+                "ModuleName" : "get_descriptor"
+               },
+               {
+                "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+                "InstLine" : 1063,
+                "InstName" : "transmitter",
+                "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+                "ModuleLine" : 11665,
+                "ModuleName" : "transmitter$4"
+               }
+              ]
+             },
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 1911,
+              "InstName" : "request_mux",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 8330,
+              "ModuleName" : "request_mux",
+              "SubInsts" : [
+               {
+                "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+                "InstLine" : 8591,
+                "InstName" : "tx_mux",
+                "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+                "ModuleLine" : 16818,
+                "ModuleName" : "tx_mux$2",
+                "SubInsts" : [
+                 {
+                  "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+                  "InstLine" : 16867,
+                  "InstName" : "encoder",
+                  "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+                  "ModuleLine" : 4663,
+                  "ModuleName" : "encoder$3"
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 1990,
+              "InstName" : "setup_decoder",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 9850,
+              "ModuleName" : "setup_decoder",
+              "SubInsts" : [
+               {
+                "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+                "InstLine" : 9963,
+                "InstName" : "data_handler",
+                "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+                "ModuleLine" : 3898,
+                "ModuleName" : "data_handler"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17262,
+            "InstName" : "USBStreamInEndpoint",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 2242,
+            "ModuleName" : "USBStreamInEndpoint",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 2336,
+              "InstName" : "tx_manager",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 11820,
+              "ModuleName" : "tx_manager"
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17290,
+            "InstName" : "USBStreamInEndpoint_2831507112816",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 2397,
+            "ModuleName" : "USBStreamInEndpoint_2831507112816",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 2496,
+              "InstName" : "tx_manager",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 14237,
+              "ModuleName" : "tx_manager$5"
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17323,
+            "InstName" : "USBStreamOutEndpoint",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 2553,
+            "ModuleName" : "USBStreamOutEndpoint",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 2904,
+              "InstName" : "boundary_detector",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 3014,
+              "ModuleName" : "boundary_detector"
+             },
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 2920,
+              "InstName" : "fifo",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 5419,
+              "ModuleName" : "fifo"
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17345,
+            "InstName" : "data_crc",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 3568,
+            "ModuleName" : "data_crc"
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17359,
+            "InstName" : "endpoint_mux",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 4731,
+            "ModuleName" : "endpoint_mux",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 5161,
+              "InstName" : "tx_mux",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 16711,
+              "ModuleName" : "tx_mux",
+              "SubInsts" : [
+               {
+                "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+                "InstLine" : 16781,
+                "InstName" : "encoder",
+                "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+                "ModuleLine" : 4625,
+                "ModuleName" : "encoder"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17508,
+            "InstName" : "handshake_detector",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 7207,
+            "ModuleName" : "handshake_detector"
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17519,
+            "InstName" : "handshake_generator",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 7417,
+            "ModuleName" : "handshake_generator"
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17529,
+            "InstName" : "receiver",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 7507,
+            "ModuleName" : "receiver"
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17547,
+            "InstName" : "reset_sequencer",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 8787,
+            "ModuleName" : "reset_sequencer"
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17562,
+            "InstName" : "timer",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 10285,
+            "ModuleName" : "timer$1"
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17573,
+            "InstName" : "token_detector",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 10406,
+            "ModuleName" : "token_detector",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 10675,
+              "InstName" : "timer",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 10177,
+              "ModuleName" : "timer"
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17593,
+            "InstName" : "translator",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 10978,
+            "ModuleName" : "translator",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 11127,
+              "InstName" : "control_translator",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 3345,
+              "ModuleName" : "control_translator"
+             },
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 11149,
+              "InstName" : "register_window",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 7987,
+              "ModuleName" : "register_window"
+             },
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 11164,
+              "InstName" : "rxevent_decoder",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 9697,
+              "ModuleName" : "rxevent_decoder"
+             },
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 11182,
+              "InstName" : "transmit_translator",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 11284,
+              "ModuleName" : "transmit_translator"
+             }
+            ]
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17619,
+            "InstName" : "transmitter",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 11454,
+            "ModuleName" : "transmitter"
+           },
+           {
+            "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "InstLine" : 17634,
+            "InstName" : "tx_multiplexer",
+            "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+            "ModuleLine" : 16654,
+            "ModuleName" : "tx_multiplexer",
+            "SubInsts" : [
+             {
+              "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "InstLine" : 16686,
+              "InstName" : "encoder",
+              "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+              "ModuleLine" : 4697,
+              "ModuleName" : "encoder$6"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+      "InstLine" : 79,
+      "InstName" : "tx_fifo",
+      "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+      "ModuleLine" : 742,
+      "ModuleName" : "usb_fifo",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+        "InstLine" : 767,
+        "InstName" : "fifo_inst",
+        "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+        "ModuleLine" : 163,
+        "ModuleName" : "~fifo.usb_fifo"
+       }
+      ]
+     },
+     {
+      "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+      "InstLine" : 147,
+      "InstName" : "rx_fifo",
+      "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+      "ModuleLine" : 742,
+      "ModuleName" : "usb_fifo",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+        "InstLine" : 767,
+        "InstName" : "fifo_inst",
+        "ModuleFile" : "/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v",
+        "ModuleLine" : 163,
+        "ModuleName" : "~fifo.usb_fifo"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

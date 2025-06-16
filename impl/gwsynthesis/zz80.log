@@ -1,0 +1,143 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/gowin_rpll/gowin_rpll.v'
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/gowin_rpll120/gowin_rpll120.v'
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/in_out_split.v'
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/ram1.v'
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/ram2.v'
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_device_controller/usb_device_controller.v'
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_to_uart/usb_to_uart.v'
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v'
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_alu.v'
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_core.v'
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_mcode.v'
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_reg.v'
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80s.v'
+Analyzing Verilog file '/home/fred/Programmation/FPGA/tang-primer20k-z80/src/zz80.v'
+Compiling module 'zz80'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/zz80.v":1)
+Compiling module 'Gowin_rPLL'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/gowin_rpll/gowin_rpll.v":10)
+Compiling module 'Gowin_rPLL120'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/gowin_rpll120/gowin_rpll120.v":10)
+Compiling module 'ram2'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/ram2.v":10)
+Compiling module 'tv80s'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80s.v":27)
+Compiling module 'tv80_core(Mode=0)'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_core.v":27)
+Compiling module 'tv80_mcode'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_mcode.v":25)
+Compiling module 'tv80_alu'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_alu.v":25)
+Compiling module 'tv80_reg'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_reg.v":25)
+Extracting RAM for identifier 'RegsH'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_reg.v":44)
+Extracting RAM for identifier 'RegsL'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/z80-open-silicon/src/tv80/tv80_reg.v":45)
+WARN  (EX3073) : Port 'ulpi__rst' remains unconnected for this instance("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":69)
+WARN  (EX3073) : Port 'Full' remains unconnected for this instance("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":89)
+WARN  (EX3073) : Port 'Almost_Empty' remains unconnected for this instance("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":156)
+Compiling module 'usb_wrapper'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":1)
+Compiling module 'usb_serial'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":17784)
+Compiling module 'usb_serial_device'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":17871)
+Compiling module 'usb'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":16904)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$36' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":16906)
+Compiling module 'USBControlEndpoint'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":1589)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$4' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":1592)
+Compiling module 'ACMRequestHandlers'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":790)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$1' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":791)
+Compiling module 'StallOnlyRequestHandler'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":879)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$2' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":880)
+Compiling module 'StandardRequestHandler'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":909)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$3' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":911)
+Compiling module 'get_descriptor'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":6653)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$15' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":6654)
+Extracting RAM for identifier 'rom'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":6767)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":6846)
+Compiling module 'transmitter$4'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":11665)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$30' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":11666)
+Compiling module 'request_mux'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":8330)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$20' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":8334)
+Compiling module 'tx_mux$2'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":16818)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$35' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":16819)
+Compiling module 'encoder$3'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":4663)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$11' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":4664)
+Compiling module 'setup_decoder'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":9850)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$23' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":9852)
+Compiling module 'data_handler'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":3898)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$9' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":3899)
+Compiling module 'USBStreamInEndpoint'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":2242)
+Compiling module 'tx_manager'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":11820)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$31' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":11821)
+Extracting RAM for identifier 'transmit_buffer_0'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":12217)
+Extracting RAM for identifier 'transmit_buffer_1'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":12741)
+Compiling module 'USBStreamInEndpoint_2831507112816'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":2397)
+Compiling module 'tx_manager$5'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":14237)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$32' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":14238)
+Extracting RAM for identifier 'transmit_buffer_0'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":14634)
+Extracting RAM for identifier 'transmit_buffer_1'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":15158)
+Compiling module 'USBStreamOutEndpoint'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":2553)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$5' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":2554)
+Compiling module 'boundary_detector'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":3014)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$6' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":3015)
+Compiling module 'fifo'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":5419)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$14' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":5420)
+Extracting RAM for identifier 'rx_fifo'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":5484)
+Compiling module 'data_crc'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":3568)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$8' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":3569)
+Compiling module 'endpoint_mux'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":4731)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$13' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":4739)
+Compiling module 'tx_mux'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":16711)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$34' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":16713)
+Compiling module 'encoder'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":4625)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$10' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":4626)
+Compiling module 'handshake_detector'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":7207)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$16' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":7208)
+Compiling module 'handshake_generator'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":7417)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$17' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":7418)
+Compiling module 'receiver'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":7507)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$18' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":7508)
+Compiling module 'reset_sequencer'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":8787)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$21' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":8788)
+Compiling module 'timer$1'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":10285)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$25' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":10286)
+Compiling module 'token_detector'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":10406)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$26' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":10407)
+Compiling module 'timer'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":10177)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$24' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":10178)
+Compiling module 'translator'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":10978)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$27' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":10980)
+Compiling module 'control_translator'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":3345)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$7' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":3346)
+Compiling module 'register_window'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":7987)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$19' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":7988)
+Compiling module 'rxevent_decoder'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":9697)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$22' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":9698)
+Compiling module 'transmit_translator'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":11284)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$28' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":11285)
+Compiling module 'transmitter'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":11454)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$29' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":11455)
+Compiling module 'tx_multiplexer'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":16654)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$33' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":16655)
+Compiling module 'encoder$6'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":4697)
+WARN  (EX3780) : Using initial value of '$auto$verilog_backend.cc:2083:dump_module$12' since it is never assigned("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":4698)
+Compiling module 'usb_fifo'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":742)
+Compiling module '**'("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":741)
+NOTE  (EX0101) : Current top module is "zz80"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "ACMRequestHandlers" instantiated to "ACMRequestHandlers" is swept in optimizing("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":1879)
+WARN  (NL0002) : The module "StallOnlyRequestHandler" instantiated to "StallOnlyRequestHandler" is swept in optimizing("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":1885)
+WARN  (NL0002) : The module "encoder$3" instantiated to "encoder" is swept in optimizing("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":16870)
+WARN  (NL0002) : The module "tx_mux" instantiated to "tx_mux" is swept in optimizing("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":5183)
+WARN  (NL0002) : The module "encoder" instantiated to "encoder" is swept in optimizing("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":16784)
+WARN  (NL0002) : The module "tx_multiplexer" instantiated to "tx_multiplexer" is swept in optimizing("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":17646)
+WARN  (NL0002) : The module "encoder$6" instantiated to "encoder" is swept in optimizing("/home/fred/Programmation/FPGA/tang-primer20k-z80/src/usb_wrapper.v":16689)
+[95%] Generate netlist file "/home/fred/Programmation/FPGA/tang-primer20k-z80/impl/gwsynthesis/zz80.vg" completed
+[100%] Generate report file "/home/fred/Programmation/FPGA/tang-primer20k-z80/impl/gwsynthesis/zz80_syn.rpt.html" completed
+GowinSynthesis finish

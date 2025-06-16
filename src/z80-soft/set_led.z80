@@ -1,0 +1,76 @@
+; This program sets an LED pattern on a Z80-based system.
+
+bootstrap:              equ 0x0000 ; Address for the bootstrap code
+interrupt_handler:      equ 0x0038 ; Address for the interrupt handler
+nmi_handler:            equ 0x0066 ; Address for the NMI handler
+program_start:          equ 0x0100 ; Start of the program in memory
+initial_stack_pointer:  equ 0x0400 ; The stack starts at the end of memory
+
+memory_size:            equ 0x0400 ; 1024 bytes
+initial_led_pattern:    equ 0x11 ; Initial LED pattern to display "1010"
+led_port:               equ 0x10 ; Port address for the LED
+uart_data:              equ 0x11 ; UART data port address
+uart_state:             equ 0x12 ; UART state port address
+
+; =============================================================================
+; System bootstrap
+; =============================================================================
+org bootstrap
+    ; Initialize the stack pointer, enable interrupts, and jump to the main
+    ; program
+    ld hl, initial_stack_pointer
+    ld sp, hl
+    ei
+    jp program_start
+
+; =============================================================================
+; Interrupt handler
+; =============================================================================
+seek interrupt_handler
+org interrupt_handler
+    ex af, af'
+
+    ; Make the LED rotate.
+    ld a, (led_pattern)
+    rlca
+    ld (led_pattern), a
+    out (led_port), a
+
+    ex af, af'
+    ei
+    reti
+
+; =============================================================================
+; NMI Handler
+; =============================================================================
+seek nmi_handler
+org nmi_handler
+    ex af, af'
+    ld a, (led_pattern)
+    xor 0xff
+    ld (led_pattern), a
+    ex af, af'
+    retn
+
+; =============================================================================
+; Main program
+; =============================================================================
+seek program_start
+org program_start
+    ; Initialize the LED pattern.
+    ld a, initial_led_pattern
+    ld (led_pattern), a
+
+loop:
+    in a, (uart_state)
+    and 0x01
+    jr z, loop
+
+    in a, (uart_data)
+    out (uart_data), a
+
+    jr loop
+
+led_pattern: db 0
+
+end

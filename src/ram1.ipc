@@ -1,0 +1,13 @@
+[General]
+file=ram1
+ipc_version=4
+module=ram1
+target_device=gw2a18c-011
+type=ssram_ram16s
+version=1.0
+
+[Config]
+DEPTH=1024
+LANG=0
+MEM_FILE=ram_init.mi
+WIDTH=8
